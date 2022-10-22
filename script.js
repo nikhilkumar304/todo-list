@@ -41,7 +41,7 @@ function newElement() {
   document.getElementById("myInput").value = "";
 
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  var txt = document.createTextNode("del");
   span.className = "close";
   span.appendChild(txt);
   li.appendChild(span);
