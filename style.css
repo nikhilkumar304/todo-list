@@ -1,5 +1,5 @@
 body {
-    margin: 10px auto;
+    margin: 0 auto;
     min-width: 250px;
     max-width: 50%;
     background-color: silver;
@@ -9,7 +9,7 @@ body {
   }
   
   ul {
-    margin: 0;
+    margin-left: -65px;
     padding: 0;
     width:865px ;
   }
@@ -59,9 +59,14 @@ body {
     top: 0;
     width: 60px;
     height: 43px;
+    font-size: 18px;
+    justify-content: center;
     border-radius: 10px;
+    text-align: center;
     color: white;
-    background:rgb(71, 70, 70);
+    padding: 10px;
+    background:#555;
+    border: 2px solid black;
   }
   
   .close:hover {
@@ -71,6 +76,7 @@ body {
   .header {
     background-color: rgb(30 26 26);
     padding: 30px 59px;
+    margin-left: -65px;
     width: 865px;
     color: white;
     text-align: center;
@@ -82,7 +88,7 @@ body {
     clear: both;
   }
   input {
-    margin: 0;
+    margin: 0px;
     border-radius: 10px;
     width: 75%;
     padding: 10px;
@@ -109,8 +115,7 @@ body {
     font-weight: bold;
     font-style: italic;
     font-size: xx-large;
-    font-family: "Times New Roman";
-    margin: 40px 35%;
+    margin:0 38%;
     background-color: rgb(255, 26, 14);
     color: white;
     border-radius: 10px;
